@@ -1,13 +1,14 @@
 package Trees;
 
-//class Node{
-//    int val;
-//    Node left;
-//    Node right;
-//    Node(int val){    // Constructor
-//        this.val = val;
-//    }
-//}
+class Node{
+   int val;
+   Node left;
+   Node right;
+   Node(int val){    // Constructor
+       this.val = val;
+   }
+}
+
 public class NodeOfTree {
     public static void main(String[] args) {
         Node a = new Node(1);
